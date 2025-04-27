@@ -2,11 +2,433 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script> 
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portifolio Olivia Rodrigo</title> 
+</head>
+<body> 
+  <header class="container text-center">
+      <!--Primeira linha -->
+  <div class="row">
+    <div class="col-md-12">
+      <br/>
+      <img src="img/olivia-rodrigo.avif" alt=""class ="rounded-circle" width="180"
+      height="180" srcset=""/> 
+      <br/>
+      <br/>
+      <h1>Eu sou a Olivia Rodrigo</h1>
+      <br/>
+      <p class="titulos"><strong>Sou cantora de músicas pops e rocks</strong></p>
+      <p>
+        Sou cantora compositora e atriz norte americana. Quando nova era atriz mirim da Disney,  
+        alguns dos filmes e series que atuei foram: American Girl: A Receita para o Sucesso, 
+        Bizaardvark, High School Musical: The Musical: The Series e Paved new world. 
+        Em 2020 começei minha vida musical, deslanchando minha carreira com a música "Driver licenses".
+        E hoje em dia venho compondo músicas e me apresentando mundo a fora em diversos shows!
+      </p>
+      <!-- código omitido -->
+      <p class="titulos"><strong>Meus Hits</strong> </p>
+      <div> 
+        <p><span class="badge text-bg-primary minhaBadge">Driver Licenses</span></p>
+        <p><span class="badge text-bg-primary minhaBadge">Dejavu</span></p>
+        <p><span class="badge text-bg-primary minhaBadge">Traidor</span></p>
+        <p><span class="badge text-bg-primary minhaBadge">Vampire</span></p>
+        <p><span class="badge text-bg-primary minhaBadge">So American</span></p>
+
+      </div>
+
+      
+    </div>
+  </div>
+</header> 
+
+<main class="container">
+
+  <!--Primeira linha -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card-group">
+
+        <!-- projeto 1 -->
+        <div class="card" style="width: 18rem;">
+          <img src="img/sour-olivia.png" class="card-img-top" alt="..." height="200">
+          <div class="card-body">
+            <h5 class="card-title">Trabalhos como cantora</h5>
+            <p class="card-text"> Essas são alguns dos meus álbuns de músicas que compus e canto:</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a href="#meuModal1" data-bs-toggle="modal"class="card-link">
+                Sour
+              </a> 
+            </li>
+            <li class="list-group-item">
+              <a href="#meuModal2" data-bs-toggle="modal"class="card-link">
+                Quts
+              </a> 
+            </li>
+          
+
+          </ul>
+          <!-- colocar os links aqui -->
+          <div class="card-body">
+            <a href="https://open.spotify.com/album/6s84u2TUpR3wdUv4NgKA2j?si=6IlSm1xoRQKPrBJeQj2QMQ" class="card-link">
+                Álbum Sour
+            </a>  
+            <a href="https://open.spotify.com/album/1xJHno7SmdVtZAtXbdbDZp?si=jIWtpC6VQgK71_STsB2FMA" class="card-link">
+              Álbum Quts
+            </a>
+          </div> 
+        </div>
+
+        <!-- projeto 2 --> 
+        <div class="card" style="width: 18rem;">
+          <img src="img/atriz.jpg" class="card-img-top" alt="..." height="200">
+          <div class="card-body">  
+            <h5 class="card-title">Trabalhos como atriz</h5>
+            <p class="card-text">Esses são alguns dos meus trabalhos como atriz em series e filmes.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a href="#meuModal3" data-bs-toggle="modal"class="card-link">
+                Bizaardvark
+              </a> 
+            </li>
+            <li class="list-group-item">
+              <a href="#meuModal4" data-bs-toggle="modal"class="card-link">
+                American Girl: A Receita para o Sucesso
+              </a> 
+            </li>
+            <li class="list-group-item">
+              <a href="#meuModal5" data-bs-toggle="modal"class="card-link">
+                High School Musical: The Musical: The Series
+              </a> 
+            </li>
+          </ul>
+          <div class="card-body">
+ 
+            <!-- colocar os links aqui -->
+            <a href="https://www.youtube.com/watch?v=0FPqCKjKZmY" class="card-link">
+              Bizaardvark
+            </a>  
+            <a href="https://www.youtube.com/watch?v=E32HjXNzdRg" class="card-link">
+               American Girl: A Receita para o Sucesso
+            </a>
+            <a href="https://www.youtube.com/watch?v=bY4adlGqFSw" class="card-link">
+             High School Musical: The Musical: The Series
+            </a>
+          </div> 
+        </div><!--card-->
+
+        <!-- projeto 3 --> 
+        <div class="card" style="width: 18rem;">
+          <img src="img/turne.gif" class="card-img-top" alt="..." height="200" >
+          <div class="card-body">  
+            <h5 class="card-title">Minhas turnes</h5>
+            <p class="card-text">Essas as minhas turnes uma e fiz com o álbum Sour e a outra com o álbum Guts.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a href="#meuModal6" data-bs-toggle="modal"class="card-link">
+                Sour Tour
+              </a> 
+            </li>
+            <li class="list-group-item">
+              <a href="#meuModal7" data-bs-toggle="modal"class="card-link">
+                GUTS World Tour
+              </a> 
+            </li>
+          </ul>
+          <div class="card-body">
+             <!-- colocar os links aqui -->
+             <a href="https://www.youtube.com/watch?v=AI53uIAy_BQ" class="card-link">
+              Sour Tour
+            </a>  
+            <a href="https://www.youtube.com/watch?v=fPsKzjnNY9I" class="card-link">
+              GUTS World Tour
+            </a>
+          
+          </div> 
+        </div><!--card-->
+      </div><!--card-group-->
+    </div><!--coluna-->
+  </div><!--row-->
+
+
+  <!-- modal sour -->
+  <div id="meuModal1" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sour</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p> O álbum Sour possui um total de 11 faixas (músicas), sendo elas:
+            <ol>
+              <li>
+                  brutal (2:23)
+              </li>
+              <li>
+                traitor (3:49)
+              </li>
+              <li>
+                drivers license (4:02)
+              </li>
+              <li>
+                1 step forward, 3 steps back (2:43)
+              </li>
+              <li>
+                deja vu (3:35)
+              </li>
+              <li>
+                good 4 u (2:58)
+              </li>
+              <li>
+                enough for you (3:22)
+              </li>
+              <li>
+                happier (2:55)
+              </li>
+              <li>
+                jealousy, jealousy (2:53)
+              </li>
+              <li>
+                favorite crime (2:32)
+              </li>
+              <li>hope ur ok (3:29)
+              </li>
+            </ol>
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>     
+
+    <!-- modal guts-->
+  <div id="meuModal2" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Quts</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O álbum Guts possui um total de 16 faixas (músicas), sendo elas:
+            </p>
+            <ol>
+              <li>
+                All-American Bitch
+              </li>
+              <li>
+                Obsessed
+              </li>
+              <li>
+                Scared of My Guitar
+              </li>
+              <li>
+                Bad Idea Right?
+              </li>
+              <li>
+                Vampire
+              </li>
+              <li>
+                Stranger
+              </li>
+              <li>
+                Girl I've Always Been
+              </li>
+              <li>
+                Lacy
+              </li>
+              <li>
+                Ballad of a Homeschooled Girl
+              </li>
+              <li>
+                Making the Bed
+              </li>
+              <li> 
+                Logical
+              </li> 
+              <li>
+                Get Him Back!
+              </li>
+              <li> 
+                Love Is Embarrassing
+              </li> 
+              <li>
+                The Grudge
+              </li>
+              <li> 
+                Pretty Isn't Pretty
+              </li> 
+              <li>
+                So American
+              </li>
+               
+            </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>    
+ 
+    <!-- modal bizaardvark -->
+    <div id="meuModal3" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Bizaardvark</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Bizaardvark é uma série de comédia do Disney Channel, protagonizada por Olivia Rodrigo e Madison Hu. A serie
+              estreou a 24 de junho de 2016 depois da estreia do Disney Channel Original Movies, Adventures in Babysitting nos EUA.
+               E no Brasil estreou em 1 de outubro. 
+               <li>Sinopse - 
+                As melhores amigas Paige e Frankie conquistam o mundo de vídeoblogues com o seu peculiar canal de comédia online Bizaardvark. 
+                Quando atingem os dez mil subscritores, são convidadas para gravar os seus vídeos nos influentes estúdios Vuuugle. 
+                Neste ambiente animado, com a ajuda de Bernie, Dirk e Amelia, duas outras estrelas da Vuuugle, as duas melhores amigas 
+                embarcam em aventuras cómicas nesta tentativa de dominar a blogosfera.</li>
+
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>     
+ 
+     <!--Modal American Girl: A Receita para o Sucesso-->
+     <div id="meuModal4" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">American Girl: A Receita para o Sucesso</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> American Girl: A Receita para o Sucesso é um filme, protagonizada por Olivia Rodrigo, que lançou em 9 de junho de 2015 (mundialmente),
+              seus gêneros são: Comédia, Musical, Infantil, Drama e Adolescente.
+               <li>Sinopse - 
+                Grace tem verdadeiro talento para fazer bolos e uma grande paixão por fazer sonhos deliciosos. Quando a mãe diz que
+                 vai fazer uma viagem para visitar parentes em Paris, Grace hesita em deixar seus amigos e o seu negócio de cupcakes.
+                  Isto é, até descobrir que vai começar a trabalhar com o tio e com o primo em uma verdadeira doceira francesa!
+                </li>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>     
+
+    <!--Modal High School Musical: The Musical: The Series-->
+    <div id="meuModal5" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">High School Musical: The Musical: The Series</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>High School Musical: The Musical: The Series é uma série de televisão estadunidense dos gêneros 
+              drama adolescent, comédia dramática, musical e mocumentário, desenvolvida por Tim Federle para 
+              o serviço de streaming Disney +, inspirada na série de filmes High School Musical.  
+               <li>Sinopse - 
+                  Em uma versão fictícia da East High School em Salt Lake City, Utah, onde os filmes da trilogia High School Musical
+                  foram filmados, uma ex-integrante do elenco, Srta. Jenn, começa a trabalhar como a nova professora de teatro.
+                  A professora decide encenar uma performance de High School Musical: The Musical para sua primeira produção
+                  teatral de inverno para celebrar a afiliação da escola com o filme original. Os alunos escalados para 
+                  o musical aprendem a navegar nas relações interpessoais e a formar vínculos entre si,
+                  para superar os desafios que enfrentam na vida escolar e em casa.</li>
+
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>     
+
+      <!-- modal  -->
+      <div id="meuModal6" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Sour Tour</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>A "Sour Tour" foi a turnê de estreia da cantora Olivia Rodrigo, promovendo seu álbum de estreia, "Sour". 
+                 Ela começou em abril de 2022 e percorreu a América do Norte e a Europa, 
+                 terminando em julho do mesmo ano. Os atos de aberturam foram: Gracie Abrams, Holly Humberstone, Chappell Roan e Baby
+                 Queen foram  
+                 A turnê contou com 49 shows em total. 
+                 Sendo um sucesso de bilheteria, com 1.4 milhões de fãs e arrecadando mais de US$ 184,6 milhões, 
+                 tornando-se a turnê de maior bilheteria de um artista nascido no século XXI. 
+  
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- modal  -->
+    <div id="meuModal7" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">GUTS World Tour</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> A turnê GUTS World Tour é em apoio ao seu segundo álbum, "Guts", lançado em 2023. Também incluindo diversos  
+              sucessos de "Sour" e "Guts". A turnê já teve shows em diversos países, incluindo a América do Norte e a Europa. 
+              Com shows no Brasil em março de 2025. O show em Curitiba foi no Estádio Couto Pereira e o show em São Paulo foi
+              no Autódromo de Interlagos, no Lollapalooza. 
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</main> 
+<!-- rodapé (final) -->
+<footer class="container  py-5">
+  <h2 class="text-primary fs-5">Entre em contato</h2> <!-- PINTEI DE AZUL -->
+  <div> <i class="bi bi-github"><a href= "https://github.com/jujuba31072008">Github</a></i><!--coloquei em formato de lista --> </div>
+  <div> <i class="bi bi-envelope-at"></i><A:mail> ana.barz.santos@escola.pr.gov.br</A:mail><!--coloquei em formato de lista --> </div>
+  <p class="my-5 text-center">Desenvolvido por Ana Júlia Barz</p>
+  </footer>
 </body>
 </html>

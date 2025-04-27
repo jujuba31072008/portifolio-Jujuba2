@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
+ 
+:root { 
+    --cor-principal: #a376b0; 
+    --cor-secundaria: #284260;
+    --cor-destaque: #6E859F;
+}
+ 
+ body { 
+   background-color: rgb(212, 234, 242);
+    /*font-family: "Playwrite Australia SA", cursive;*/
+ } 
+
+ .titulos{
+   font-family: "Playwrite RO", cursive;
+   font-size: large;
+ }
+
+ h1,h2,h5 { 
+   font-family: "Playwrite RO", cursive;
+    color: var(--cor-principal); 
+    font-weight: 700;
+ } 
+ lead{ 
+    color: var(--cor-destaque); 
+    font-weight: 700;
+ } 
+ a{
+   color: var(--cor-secundaria);
+ }
+
+
+ footer a,bnt-light :hover {
+     color: var(--cor-secundaria);
+ } 
+ footer a:hover { 
+    color: var(--cor-principal);
+ }
+
+ .card{
+   background-color:var(--cor-principal);
+ }
+.card li{
+   background-color: purple;
+   color: white;
+}
+.card li a{
+   color: white;
+}
+ .minhaBadge{
+   background-color: var(--cor-principal) !important;
+ }
